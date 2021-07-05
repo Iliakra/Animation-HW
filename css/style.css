@@ -1,0 +1,50 @@
+.main-container {
+    width: 30%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    padding: 5px;
+}
+
+.animated-container {
+    height: 30px;
+    overflow: hidden;
+    background-color: white;
+    padding: 30px;
+}
+
+.height-animation-down {
+    height: 200px;
+    transition: height 2s ease 0s;
+}
+
+.height-animation-up {
+    height: 30px;
+    transition: height 1s ease 0s;
+}
+
+
+#collapse-button {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 47, 255, 0.534);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+
+#collapse-button:hover {
+    box-shadow: 0 0 0 3px rgba(12, 99, 238, 0.39);
+}
+
+#collapse-button:active {
+    background-color: rgba(8, 51, 241, 0.911);
+}
+
+.text-container {
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+}
